@@ -6,7 +6,7 @@ type Props = {
 export const SocialLink: React.FC<Props> = ({ href, icon }) => {
   return (
     <a
-      className="rounded-full border border-gray-600 grid place-content-center w-6 h-6"
+      className="grid h-8 w-8 place-content-center rounded-full border border-gray-600 text-zinc-200"
       href={href}
     >
       {icon}
