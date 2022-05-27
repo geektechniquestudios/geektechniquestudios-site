@@ -4,11 +4,13 @@ type Props = {
   videoHref?: string
   topImage: string
   description: string
+  description2?: string
 }
 
 const ProjectCard: React.FC<Props> = ({
   topImage,
   description,
+  description2,
   title,
   codeHref,
   videoHref,
@@ -19,14 +21,15 @@ const ProjectCard: React.FC<Props> = ({
         {title}
       </div>
       <div className="gap-3 p-4 md:flex">
-        <div className="md:w-1/2">
+        <div className="md:w-1/2 mt-2">
           <img
             className="rounded-lg border border-zinc-600 bg-zinc-600"
             src={`src/images/${topImage}`}
           />
         </div>
-        <div className="my-2 flex grow flex-col justify-between rounded-b-lg text-zinc-300 md:w-1/2">
+        <div className="flex grow flex-col justify-between rounded-b-lg text-zinc-300 md:w-1/2 mt-2">
           <p>{description}</p>
+          {description2 && (<p className="pt-3">{description2}</p>)}
           <div className="mt-3 flex gap-3">
             {codeHref && (
               <a

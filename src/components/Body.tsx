@@ -7,19 +7,19 @@ type Props = {}
 export const Body: React.FC<Props> = () => {
   return (
     <div className="flex justify-center">
-      <div className="flex max-w-4xl grow flex-col bg-zinc-900">
+      <div className="flex max-w-4xl grow flex-col gap-3 bg-zinc-900 px-10">
         <Intro />
         <ProjectCard
           title="ChessWager"
           codeHref="https://github.com/geektechniquestudios/ChessWager"
-          videoHref=""
+          videoHref="https://youtu.be/YG4CmSdyx3Y"
           topImage="chessWager.png"
-          description="Betting on chess is is a sequitor step in the process of creating a generalized betting service. This particular project is different than your typical platform for several reasons. This uses blockchains for transactions and is extremely performant. There is no human step in the process of paying users; it is entirely driven by APIs and smart contracts, so users are paid instantly after the conditions of their bet close."
+          description="Betting on chess games might not seem particularly significant superficially, but this platform is an early testbed for developing a generalized API-driven betting service that uses smart contracts for payment. There is no human step in the process of paying users. Payment services are entirely driven by APIs and smart contracts. That means users are paid instantly after the conditions of their bet close. We never even have to possess users' funds due to our smart contracts."
+          description2="People often think of blockchains as slow. Existing solutions for betting on real-time events are rarely fast. Contemporary services like the prediction market at pancakeswap can take several minutes to pay. They also require a second transaction from the user to claim funds. Our solution consistently takes less than 5 seconds and doesn't require any interaction from the user to receive payment."
         />
         <ProjectCard
           title="Pi Smart Thermostat"
           codeHref="https://github.com/geektechniquestudios/RPI-Retrofit-Smart-Thermostat"
-          videoHref=""
           topImage="thermostat.jpg"
           description="Everyone hates waking up in the middle the night because it's too hot or cold. The walk to the thermostat is the worst. Why not buy one? Well, this was more fun. It'd be trivial to build any ReST service on top what I already have. Not to mention the satisfaction I get from seeing a 90's piece of technology respond to my phone over a network."
         />
