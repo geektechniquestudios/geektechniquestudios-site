@@ -24,7 +24,7 @@ const ProjectCard: React.FC<Props> = ({
         <div className="mt-2 md:w-1/2">
           <img
             className="rounded-lg border border-zinc-600 bg-zinc-600"
-            src={`images/${topImage}`}
+            src={topImage}
           />
         </div>
         <div className="mt-2 flex grow flex-col justify-between rounded-b-lg text-zinc-300 md:w-1/2">
