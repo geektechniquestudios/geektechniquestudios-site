@@ -7,8 +7,15 @@ type Props = {}
 export const Body: React.FC<Props> = () => {
   return (
     <div className="flex justify-center">
-      <div className="flex max-w-4xl grow flex-col gap-3 bg-zinc-900 px-10">
+      <div className="flex max-w-4xl grow flex-col gap-3 border-l border-r border-slate-700 bg-slate-900 px-10">
         <Intro />
+        <ProjectCard
+          title="Frozr"
+          codeHref="https://github.com/geektechniquestudios/Frozr"
+          topImage="frozr.png"
+          description="Frozr is a simple and secure web service that enables you to store your cryptocurrency in a smart-contract time vault. With a focus on security, simplicity, and usability, this service is and always will be free of ads, fees, and tracking."
+          description2="The most outstanding features of this site are the perfect lighthouse score and precise handmade animations."
+        />
         <ProjectCard
           title="ChessWager"
           codeHref="https://github.com/geektechniquestudios/ChessWager"
@@ -72,7 +79,7 @@ export const Body: React.FC<Props> = () => {
         <p className="mx-4 flex justify-end text-zinc-300">
           geektechniquestudios@gmail.com
         </p>
-        <p className="mx-4 flex justify-end text-zinc-300">(470) 234-8330</p>
+        <p className="mx-4 flex justify-end text-zinc-300">(762) 282-0201</p>
         <Footer />
       </div>
     </div>

@@ -16,8 +16,8 @@ const ProjectCard: React.FC<Props> = ({
   videoHref,
 }) => {
   return (
-    <div className="m-1.5 rounded-lg border border-white bg-zinc-800">
-      <div className="flex items-center justify-center rounded-t-lg bg-zinc-700 py-2 text-xl text-zinc-300">
+    <div className="m-1.5 rounded-lg border border-slate-700 bg-slate-800">
+      <div className="flex items-center justify-center rounded-t-lg bg-slate-600 py-2 text-xl text-zinc-300">
         {title}
       </div>
       <div className="gap-3 p-4 md:flex">
