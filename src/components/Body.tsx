@@ -10,19 +10,19 @@ export const Body: React.FC<Props> = () => {
       <div className="flex max-w-4xl grow flex-col gap-3 border-l border-r border-slate-700 bg-slate-900 px-10">
         <Intro />
         <ProjectCard
-          title="Frozr"
-          codeHref="https://github.com/geektechniquestudios/Frozr"
-          topImage="frozr.png"
-          description="Frozr is a simple and secure web service that enables you to store your cryptocurrency in a smart-contract time vault. With a focus on security, simplicity, and usability, this service is and always will be free of ads, fees, and tracking."
-          description2="The most outstanding features of this site are the perfect lighthouse score and precise handmade animations."
-        />
-        <ProjectCard
           title="ChessWager"
           codeHref="https://github.com/geektechniquestudios/ChessWager"
           videoHref="https://youtu.be/YG4CmSdyx3Y"
           topImage="chessWager.png"
           description="Betting on chess games might not seem particularly significant superficially, but this platform is an early testbed for developing a generalized API-driven betting service that uses smart contracts for payment. There is no human step in the process of paying users. Payment services are entirely driven by APIs and smart contracts. That means users are paid instantly after the conditions of their bet close. We never even have to possess users' funds due to our smart contracts."
           description2="People often think of blockchains as slow. Existing solutions for betting on real-time events are rarely fast. Contemporary services like the prediction market at pancakeswap can take more than a minute to pay. They also require a second transaction from the user to claim funds. Our solution consistently takes less than 5 seconds and doesn't require any interaction from the user to receive payment."
+        />
+        <ProjectCard
+          title="Frozr"
+          codeHref="https://github.com/geektechniquestudios/Frozr"
+          topImage="frozr.png"
+          description="Frozr is a simple and secure web service that enables you to store your cryptocurrency in a smart-contract time vault. With a focus on security, simplicity, and usability, this service is and always will be free of ads, fees, and tracking."
+          description2="This site is very performant, has a perfect lighthouse score, and was made with precise handmade animations."
         />
         <ProjectCard
           title="Pi Smart Thermostat"
